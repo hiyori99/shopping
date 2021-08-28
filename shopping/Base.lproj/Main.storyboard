@@ -19,17 +19,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="rpX-pm-ZnF">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="Usq-QX-E5m">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="pU6-iU-w9M">
-                                <rect key="frame" x="302" y="7" width="92" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="FFy-hf-Wk0" kind="show" id="CBq-Sw-ycy"/>
-                                </connections>
-                            </button>
+                        <barButtonItem key="rightBarButtonItem" title="Button" id="r9N-Il-fNe">
                             <connections>
-                                <segue destination="FFy-hf-Wk0" kind="show" id="JaS-1n-DRq"/>
+                                <segue destination="hi6-zg-jTW" kind="show" id="apq-K9-PjG"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -38,21 +30,21 @@
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="73.660714285714278"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="QGs-EC-qAp">
+        <!--Second View Controller-->
+        <scene sceneID="uMP-8S-daA">
             <objects>
-                <viewController id="FFy-hf-Wk0" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zgj-NX-taQ">
+                <viewController id="hi6-zg-jTW" customClass="SecondViewController" customModule="shopping" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qQD-Ck-Lb5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="LwF-l1-dSK"/>
+                        <viewLayoutGuide key="safeArea" id="new-ID-Rly"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="0jq-ad-MkK"/>
+                    <navigationItem key="navigationItem" id="ymE-5b-dbR"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PQJ-Cx-peI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6SD-zw-kAO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1719" y="74"/>
+            <point key="canvasLocation" x="1748" y="74"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="MHK-HQ-7MC">
@@ -73,9 +65,6 @@
             <point key="canvasLocation" x="18.840579710144929" y="73.660714285714278"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="CBq-Sw-ycy"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
