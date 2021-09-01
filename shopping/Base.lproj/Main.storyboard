@@ -30,10 +30,10 @@
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="73.660714285714278"/>
         </scene>
-        <!--Second View Controller-->
+        <!--Stock List View Controller-->
         <scene sceneID="uMP-8S-daA">
             <objects>
-                <viewController id="hi6-zg-jTW" customClass="SecondViewController" customModule="shopping" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hi6-zg-jTW" customClass="StockListViewController" customModule="shopping" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qQD-Ck-Lb5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

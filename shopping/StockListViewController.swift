@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  StockListViewController.swift
 //  shopping
 //
 //  Created by 池田光里 on 2021/08/28.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class StockListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
