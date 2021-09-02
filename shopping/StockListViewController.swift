@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SecondViewController: UITableViewController {
+class StockListViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
