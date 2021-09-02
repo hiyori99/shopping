@@ -7,7 +7,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+//買い物リストの画面のコード
+class ShoppingViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

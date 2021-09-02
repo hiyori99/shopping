@@ -2,12 +2,12 @@
 //  SecondViewController.swift
 //  shopping
 //
-//  Created by 池田光里 on 2021/08/28.
+//  Created by 池田光里 on 2021/09/02.
 //
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class SecondViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
