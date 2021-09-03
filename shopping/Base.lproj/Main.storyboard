@@ -50,10 +50,10 @@
             </objects>
             <point key="canvasLocation" x="1839.1304347826087" y="-640.17857142857144"/>
         </scene>
-        <!--Second View Controller-->
+        <!--Stocks View Controller-->
         <scene sceneID="lGO-WO-pLz">
             <objects>
-                <tableViewController id="RaJ-bV-RQS" customClass="SecondViewController" customModule="shopping" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="RaJ-bV-RQS" customClass="StocksViewController" customModule="shopping" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Pr0-pK-HBM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
