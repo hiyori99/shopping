@@ -16,6 +16,7 @@
 		606E006A26D9158300310AE5 /* shoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606E006926D9158300310AE5 /* shoppingTests.swift */; };
 		606E007526D9158300310AE5 /* shoppingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606E007426D9158300310AE5 /* shoppingUITests.swift */; };
 		60D1EE3626E0A33F005FCE9A /* StocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D1EE3526E0A33F005FCE9A /* StocksViewController.swift */; };
+		60D1EE3826E0AF19005FCE9A /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D1EE3726E0AF19005FCE9A /* ShoppingItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		606E007426D9158300310AE5 /* shoppingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoppingUITests.swift; sourceTree = "<group>"; };
 		606E007626D9158300310AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60D1EE3526E0A33F005FCE9A /* StocksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksViewController.swift; sourceTree = "<group>"; };
+		60D1EE3726E0AF19005FCE9A /* ShoppingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				606E005226D9158000310AE5 /* AppDelegate.swift */,
 				606E005426D9158000310AE5 /* SceneDelegate.swift */,
 				606E005626D9158000310AE5 /* ShoppingViewController.swift */,
+				60D1EE3726E0AF19005FCE9A /* ShoppingItem.swift */,
 				606E005826D9158000310AE5 /* Main.storyboard */,
 				60D1EE3526E0A33F005FCE9A /* StocksViewController.swift */,
 				606E005B26D9158200310AE5 /* Assets.xcassets */,
@@ -264,6 +267,7 @@
 				606E005726D9158000310AE5 /* ShoppingViewController.swift in Sources */,
 				606E005326D9158000310AE5 /* AppDelegate.swift in Sources */,
 				606E005526D9158000310AE5 /* SceneDelegate.swift in Sources */,
+				60D1EE3826E0AF19005FCE9A /* ShoppingItem.swift in Sources */,
 				60D1EE3626E0A33F005FCE9A /* StocksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
