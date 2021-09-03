@@ -26,19 +26,6 @@ class ShoppingViewController: UITableViewController {
         
         super.viewDidLoad()
         
-        // あらかじめ3つアイテムを作っておく
-        let item1: Item = Item(title: "FLYーWESTに電話する")
-        let item2: Item = Item(title: "フリーランスエンジニアになる")
-        let item3: Item = Item(title: "稼いで幸せになる")
-        
-        // 先ほど作ったitemArray配列に追加
-        itemArray.append(item1)
-        itemArray.append(item2)
-        itemArray.append(item3)
-        
-        // NaviBarのタイトルを大きく表示させ、スクロールした場合は小さくする
-        navigationController?.navigationBar.prefersLargeTitles = true
-        
     }
     
     
