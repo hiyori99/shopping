@@ -59,7 +59,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="L2n-7I-nBg">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="StockCell" id="L2n-7I-nBg">
                                 <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="L2n-7I-nBg" id="C7f-Wo-Y4h">
@@ -73,7 +73,17 @@
                             <outlet property="delegate" destination="RaJ-bV-RQS" id="92r-mE-elh"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="J3Y-3L-3ua"/>
+                    <navigationItem key="navigationItem" id="J3Y-3L-3ua">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="cGV-sc-NVC">
+                            <connections>
+                                <action selector="AddButton:" destination="RaJ-bV-RQS" id="TJv-BA-zFD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="AddItem" destination="cGV-sc-NVC" id="9Fw-Ry-FeA"/>
+                        <outlet property="StockView" destination="Pr0-pK-HBM" id="UNd-RO-oyw"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nuj-Yb-68F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
